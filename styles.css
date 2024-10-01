@@ -1,0 +1,48 @@
+/* Stili base per il corpo della pagina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Container del menu */
+.menu-container {
+    width: 200px; /* Larghezza del menu */
+    background-color: #f4f4f4;
+    padding-top: 20px;
+    position: fixed; /* Fissa il menu al lato sinistro */
+    height: 100%; /* Prende tutta l'altezza della pagina */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Aggiunge una leggera ombra */
+}
+
+/* Stile della lista */
+.vertical-menu {
+    list-style-type: none; /* Rimuove i bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+/* Stile per i link del menu */
+.vertical-menu li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc; /* Aggiunge una linea divisoria */
+    background-color: #f4f4f4; /* Sfondo */
+    transition: background-color 0.3s;
+}
+
+/* Stile al passaggio del mouse */
+.vertical-menu li a:hover {
+    background-color: #bef300f5;
+    color: #000;
+}
+
+/* Stile per il contenuto principale */
+.content {
+    margin-left: 220px; /* Sposta il contenuto per lasciare spazio al menu */
+    padding: 20px;
+}

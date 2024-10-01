@@ -1,0 +1,23 @@
+#myIDHeader {
+    background-color: lightblue; opacity: 0.8;
+    color: black;
+    padding: 40px;
+    text-align: center;
+  }
+
+.myClassHeader {
+    background-color: rgb(5, 2, 39);
+    color: rgb(216, 229, 233);
+    padding: 50px;
+    text-align: left;
+  }
+
+p, div {
+    background-color: lightcyan;
+    color: blue;
+
+}
+
+body{
+    background-color: ivory;
+}
